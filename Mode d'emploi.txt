@@ -1,0 +1,19 @@
+Que faire avec un fichier abc :
+
+1) le compiler avec abcm2ps
+  - le fichier abc contient en début de fichier la version
+    d'abcm2ps avec laquelle il a été compilé
+  - il faut utiliser un fichier de format :
+      standard.fmt pour une impression format A4,
+      tablette.fmt pour l'affichage sur une tablette
+  - la syntaxe de compilation est la suivante :
+    abcm2ps -F (fichier_de_format) (fichier_abc)
+2) le visualiser avec GhostView (ou tout visualisateur de fichier postscript)
+3) le transformer en fichier PDF
+  - soit à partir de GhostView en faisant Convertir
+  - soit avec GhostScript avec la syntaxe suivante :
+      gswin32c -quiet -r595x842 -sDEVICE=pdfwrite -o IMP.pdf out.ps % pour un format A4
+      gswin32c -quiet -r1920x1600 -sDEVICE=pdfwrite -o TAB.pdf out.ps % pour un format tablette
+    Il s'agit ici de la solution sous Windows, sous Linux, l'exécutable ghostscript s'appelle gs
+    
+4) Utiliser le fichier PDF dans Impressions-partitions-piano ou Tablette-partitions-piano    
