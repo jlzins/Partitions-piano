@@ -1,11 +1,11 @@
 %-------------------------------------------------------------
 % Locus Iste (Bruckner)
 %-------------------------------------------------------------
-% revu 03/08/2017 v8dd
+% revu 03/08/2017 abcm2ps v8.13.13
 %-------------------------------------------------------------
 
 %-------------------------------------------------------------
-% mes personnalisations par rapport au mod�le
+% mes personnalisations par rapport au modèle
 %-------------------------------------------------------------
 %%staffnonote 1
 % pour des nuances plus proches des notes
@@ -32,7 +32,7 @@ V:A clef=treble name="Alti" sname="A"
 V:T clef=treble-8 name="Tenore" sname="T"
 V:B clef=bass octave=-2 name="Bassi" sname="B"
 %
-% %%staves [S A T B]
+%%staves [S A T B]
 %
 [V:S]!p!c6B2|A4G2z2|z2G2A2E2|G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|
 w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
@@ -112,7 +112,7 @@ V:A clef=treble name="Alti" sname="A"
 V:T clef=treble-8 name="Tenore" sname="T"
 V:B clef=bass octave=-2 name="Bassi" sname="B"
 %
-%%staves [(S A) T B]
+%%staves [(S A) T B] % les paroles et les nuances ont été supprimées pour la partie d'alto
 %
 [V:S]!p!c6B2|A4G2z2|z2G2A2E2|G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|
 w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
