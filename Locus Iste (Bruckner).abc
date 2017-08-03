@@ -1,0 +1,171 @@
+%-------------------------------------------------------------
+% Locus Iste (Bruckner)
+%-------------------------------------------------------------
+% revu 03/08/2017 v8dd
+%-------------------------------------------------------------
+
+%-------------------------------------------------------------
+% mes personnalisations par rapport au modèle
+%-------------------------------------------------------------
+%%staffnonote 1
+% pour des nuances plus proches des notes
+%%deco pp 6 @ 20 8 24 "@-12,12$1pp"
+%%deco p 6 @ 20 8 16 "@-8,12$1p"
+%%deco mf 6 @ 20 8 16 "@-14,12$1mf"
+%%deco f 6 @ 20 8 16 "@-8,12$1f"
+%%deco ff 6 @ 20 8 16 "@-12,12$1ff"
+%%pos vocal above
+%-------------------------------------------------------------
+
+X:1 % pour format portrait
+T:Locus iste
+C:Anton BRUCKNER (1824-1896)
+S:Original perso manuscript
+Z:transcrit par JL Zins
+M:C
+L:1/8
+K:C
+%
+%-------------------------- Choeur
+V:S clef=treble name="Soprane" sname="S"
+V:A clef=treble name="Alti" sname="A"
+V:T clef=treble-8 name="Tenore" sname="T"
+V:B clef=bass octave=-2 name="Bassi" sname="B"
+%
+% %%staves [S A T B]
+%
+[V:S]!p!c6B2|A4G2z2|z2G2A2E2|G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|
+w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
+[V:A]!p!E6E2|E4E2z2|z2E2E2E2|D3DD2z2|!mf!^F6F2|^F4G2z2|z2!f!G2G2G2|
+% w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
+[V:T]!p!G6G2|c4c2z2|z2c2c2c2|A3AA2z2|!mf!A6d2|d4d2z2|z2!f!B2c2d2|
+w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
+[V:B]!p!c6c2|c4c2c2|c6c2|d3dd2z2|!mf!d6d2|G4G2!f!g2|(=f4e2)B2|
+w:Lo-cus i-ste a De-o fa-ctus est, Lo-cus i-ste a De-e-o
+%
+[V:S]f3fe2z2|z2!p!f2f2e2|z2F4E2|D6C2|B,2z2z4|z2!f!D2D2D2|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-
+[V:A]G3GG2z2|z2!p!G2G2G2|z2D4C2|B,6G,2|G,2z2z4|z2!f!D2D2D2|
+% w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-
+[V:T]d3dc2z2|z2!p!d2d2c2|z2G4G2|F6E2|D2z2z4|z2!f!D2_B2c2|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-
+[V:B]c3cc2!p!c2|B4c4|B4c4|G4G4|G2!f!G2G2A2|_B3d(g2a2)|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-ma-bi-le_
+%
+[V:S]D3=E(F2_B2)|d6e2|e2A2z4|z2!ff!E2E2E2|E3^F(G2c2)|e6^f2|^f2=B2z4|
+w:ma-bi-le_ sa-cra-men-tum, in-ae-sti-ma-bi-le_ sa-cra-men-tum
+[V:A]D3D(D2F2)|F6G2|A2E2z4|z2!ff!E2E2E2|E3E(E2G2)|G6A2|=B2^F2z4|
+% w:ma-bi-le_ sa-cra-men-tum, in-ae-sti-ma-bi-le_ sa-cra-men-tum
+[V:T]d3dd4|d6d2|d2^c2z4|z2!ff!E2=c2d2|e3ee4|e6e2|e2^d2z4|
+w:ma-bi-le sa-cra-men-tum, in-ae-sti-ma-bi-le sa-cra-men-tum
+[V:B]_b6b2|(_b4_B4)|A2!ff!A2A2=B2|=c3e(a2=b2)|c'6c'2|(c'4c4)|B4z4|
+w:sa-cra-men--tum, in-ae-sti-ma-bi-le_ sa-cra-men--tum.
+%
+[V:S]z8|!pp!^F2F2F2F2|G>GG2G2z2|E2E2E2E2|"_cresc."=F>FF2F2z2|
+w:ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-si-bi-lis est,
+[V:A]z8|!pp!E2E2^D2D2|=D>DD2D2z2|D2D2C2C2|"_cresc."=C>CC2C2z2|
+% w:ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-si-bi-lis est,
+[V:T]!pp!c2c2c2c2|B>BB2B2z2|_B2B2B2B2|A>AA2A2z2|"_cresc."_A2A2A2A2|
+w:ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-
+[V:B]z8|z8|z8|z8|z8|
+%
+[V:S]!p!F4E4|!mf!A6G2|F3FE4|(E2D2)z4|!p!c6B2|A4G2z2|z2G2A2E2|
+w:ir-re-pre-hen-si-bi-lis est._ Lo-cus i-ste a De-o
+[V:A]!p!=B,4C4|!mf!C6C2|C2B,2C4|(C2B,2)z4|!p!E6E2|E4E2z2|z2E2E2E2|
+% w:ir-re-pre-hen-si-bi-lis est._ Lo-cus i-ste a De-o
+[V:T]G>GG2G2z2|F2F2E2E2|D3D(E2C2)|G4z4|!p!G6G2|c4c2z2|z2c2c2c2|
+w:si-bi-lis est, ir-re-pre-hen-si-bi-lis_ est. Lo-cus i-ste a De-o
+[V:B]z8|z8|z8|z8|!p!c6c2|c4c2c2|c6c2|
+w:Lo-cus i-ste a De-o
+%
+[V:S]G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|=f3fe2z2|z2!p!f2f2e2|z2F4E2|
+w:fa-ctus est, lo-cus i-ste a De-o fa-ctus est, a De-o, De-o,
+[V:A]D3DD2z2|!mf!^F6F2|^F4G2z2|z2!f!G2G2G2|G3GG2z2|z2!p!G2G2G2|z2F4C2|
+% w:fa-ctus est, lo-cus i-ste a De-o fa-ctus est, a De-o, De-o,
+[V:T]A3AA2z2|!mf!A6d2|d4d2z2|z2!f!B2c2d2|d3dc2z2|z2!p!d2d2c2|z2G4G2|
+w:fa-ctus est, lo-cus i-ste a De-o fa-ctus est, a De-o, De-o,
+[V:B]d3dd2z2|!mf!d6d2|G4G2!f!g2|(=f4e2)B2|c3cc2!p!c2|B4c4|B4c4|
+w:fa-ctus est, lo-cus i-ste a De--o fa-ctus est, a De-o, De-o,
+%
+[V:S](D6E2&x4"_cresc."x4|F4!f!^F4-|F4G4)|z8|z2!pp!G2=F2E2|=F4D4|D8-|D4D4|E6z2|]
+w:De-----o, a De-o, De-o fa--ctus est.
+[V:A](C2=B,2"_cresc."_B,4-|B,2A,2!f!C4-|C4=B,4)|z8|z2!pp!C2B,2C2|C4C4|(C8|B,4)B,4|C6z2|]
+% w:De-------o, a De-o, De-o fa--ctus est.
+[V:T](G8&x4"_cresc."x4|F4!f!A4-|A4G4)|z8|z2!pp!G2G2G2|A4A4|G8-|G4G4|G6z2|]
+w:De----o, a De-o, De-o fa--ctus est.
+[V:B](G4"_cresc."g2^c2|d6!f!^d2|e4e4)|z8|z2!pp!e2d2c2|F4^F4|G8-|G4G4|c6z2|]
+w:De------o, a De-o, De-o fa--ctus est.
+%
+
+X:2 % pour format italienne
+T:Locus iste
+C:Anton BRUCKNER (1824-1896)
+S:Original perso manuscript
+Z:transcrit par JL Zins
+M:C
+L:1/8
+K:C
+%
+%-------------------------- Choeur
+V:S clef=treble name="Soprane" sname="S"
+V:A clef=treble name="Alti" sname="A"
+V:T clef=treble-8 name="Tenore" sname="T"
+V:B clef=bass octave=-2 name="Bassi" sname="B"
+%
+%%staves [(S A) T B]
+%
+[V:S]!p!c6B2|A4G2z2|z2G2A2E2|G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|
+w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
+[V:A]E6E2|E4E2z2|z2E2E2E2|D3DD2z2|^F6F2|^F4G2z2|z2G2G2G2|
+[V:T]!p!G6G2|c4c2z2|z2c2c2c2|A3AA2z2|!mf!A6d2|d4d2z2|z2!f!B2c2d2|
+w:Lo-cus i-ste a De-o fa-ctus est, lo-cus i-ste a De-o
+[V:B]!p!c6c2|c4c2c2|c6c2|d3dd2z2|!mf!d6d2|G4G2!f!g2|(=f4e2)B2|
+w:Lo-cus i-ste a De-o fa-ctus est, Lo-cus i-ste a De-e-o
+%
+[V:S]f3fe2z2|z2!p!f2f2e2|z2F4E2|D6C2|B,2z2z4|z2!f!D2D2D2|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-
+[V:A]G3GG2z2|z2G2G2G2|z2D4C2|B,6G,2|G,2z2z4|z2D2D2D2|
+[V:T]d3dc2z2|z2!p!d2d2c2|z2G4G2|F6E2|D2z2z4|z2!f!D2_B2c2|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-
+[V:B]c3cc2!p!c2|B4c4|B4c4|G4G4|G2!f!G2G2A2|_B3d(g2a2)|
+w:fa-ctus est, a De-o, De-o fa-ctus est in-ae-sti-ma-bi-le_
+%
+[V:S]D3=E(F2_B2)|d6e2|e2A2z4|z2!ff!E2E2E2|E3^F(G2c2)|e6^f2|^f2=B2z4|
+w:ma-bi-le_ sa-cra-men-tum, in-ae-sti-ma-bi-le_ sa-cra-men-tum
+[V:A]D3D(D2F2)|F6G2|A2E2z4|z2!ff!E2E2E2|E3E(E2G2)|G6A2|=B2^F2z4|
+[V:T]d3dd4|d6d2|d2^c2z4|z2E2=c2d2|e3ee4|e6e2|e2^d2z4|
+w:ma-bi-le sa-cra-men-tum, in-ae-sti-ma-bi-le sa-cra-men-tum
+[V:B]_b6b2|(_b4_B4)|A2!ff!A2A2=B2|=c3e(a2=b2)|c'6c'2|(c'4c4)|B4z4|
+w:sa-cra-men--tum, in-ae-sti-ma-bi-le_ sa-cra-men--tum.
+%
+[V:S]z8|!pp!^F2F2F2F2|G>GG2G2z2|E2E2E2E2|"_cresc."=F>FF2F2z2|
+w:ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-si-bi-lis est,
+[V:A]z8|E2E2^D2D2|=D>DD2D2z2|D2D2C2C2|=C>CC2C2z2|
+[V:T]!pp!c2c2c2c2|B>BB2B2z2|_B2B2B2B2|A>AA2A2z2|"_cresc."_A2A2A2A2|
+w:ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-si-bi-lis est, ir-re-pre-hen-
+[V:B]z8|z8|z8|z8|z8|
+%
+[V:S]!p!F4E4|!mf!A6G2|F3FE4|(E2D2)z4|!p!c6B2|A4G2z2|z2G2A2E2|
+w:ir-re-pre-hen-si-bi-lis est._ Lo-cus i-ste a De-o
+[V:A]=B,4C4|!mf!C6C2|C2B,2C4|(C2B,2)z4|E6E2|E4E2z2|z2E2E2E2|
+[V:T]G>GG2G2z2|F2F2E2E2|D3D(E2C2)|G4z4|!p!G6G2|c4c2z2|z2c2c2c2|
+w:si-bi-lis est, ir-re-pre-hen-si-bi-lis_ est. Lo-cus i-ste a De-o
+[V:B]z8|z8|z8|z8|!p!c6c2|c4c2c2|c6c2|
+w:Lo-cus i-ste a De-o
+%
+[V:S]G3GF2z2|!mf!d6c2|c4B2z2|z2!f!d2e2g2|=f3fe2z2|z2!p!f2f2e2|z2F4E2|
+w:fa-ctus est, lo-cus i-ste a De-o fa-ctus est, a De-o, De-o,
+[V:A]D3DD2z2|!mf!^F6F2|^F4G2z2|z2!f!G2G2G2|G3GG2z2|z2!p!G2G2G2|z2F4C2|
+[V:T]A3AA2z2|A6d2|d4d2z2|z2B2c2d2|d3dc2z2|z2d2d2c2|z2G4G2|
+w:fa-ctus est, lo-cus i-ste a De-o fa-ctus est, a De-o, De-o,
+[V:B]d3dd2z2|!mf!d6d2|G4G2!f!g2|(=f4e2)B2|c3cc2!p!c2|B4c4|B4c4|
+w:fa-ctus est, lo-cus i-ste a De--o fa-ctus est, a De-o, De-o,
+%
+[V:S](D6E2&x4"_cresc."x4|F4!f!^F4-|F4G4)|z8|z2!pp!G2=F2E2|=F4D4|D8-|D4D4|E6z2|]
+w:De-----o, a De-o, De-o fa--ctus est.
+[V:A](C2=B,2_B,4-|B,2A,2C4-|C4=B,4)|z8|z2C2B,2C2|C4C4|(C8|B,4)B,4|C6z2|]
+[V:T](G8&x4"_cresc."x4|F4!f!A4-|A4G4)|z8|z2!pp!G2G2G2|A4A4|G8-|G4G4|G6z2|]
+w:De----o, a De-o, De-o fa--ctus est.
+[V:B](G4"_cresc."g2^c2|d6!f!^d2|e4e4)|z8|z2!pp!e2d2c2|F4^F4|G8-|G4G4|c6z2|]
+w:De------o, a De-o, De-o fa--ctus est.
+%
